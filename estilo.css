@@ -1,0 +1,183 @@
+*{box-sizing: border-box;
+font-family: 'Monomaniac One', sans-serif;
+}
+body{
+	margin: auto auto;
+	
+}
+.header {
+	display: flex;
+	width: 140%;
+	padding-top: 43px;
+	padding-right: 46%;
+	padding-left: 40px;
+	padding-bottom: 69px;
+    text-align: center;
+    justify-content: flex-end;
+    
+}
+.logoUtm{
+	background-position: center center;
+	background-image: url(./img/utmlogo1.png);
+	height: 90px;
+	width: 110px;
+    background-size: 101%;
+    background-repeat: no-repeat;
+}
+.menuNav{
+	overflow: auto;
+	width: 100%;
+	height:70% ;
+  
+}
+.Boton{
+  cursor: pointer;
+  outline: none;
+  color:black;
+  background-color: #FF6100;
+  border-radius: 15px;
+  transition: font-size 0.3s ease
+}
+.Boton:hover{
+  font-size: 20px;
+}
+
+.Boton:artive{
+	background-color: black;
+	transform: translateY(10px);
+}
+
+.menuNav a {
+	float: right;
+	display:block;
+	text-align: center;
+	font-size: 25px;
+	font-weight:bold;
+	padding: 15px 20px;
+	gap: 10%;
+}
+
+.menuNav ahover{
+	background-color: #FF6100;
+	color:#FF6100;
+}
+.imagenPrincipal{
+	padding: 20px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url(./img/fotobici.jpg);
+	height: 350px;
+	width: 100%;
+
+}
+.grid-container-uno{
+	display:grid;
+	grid-template-columns:auto;
+
+	padding: 5px 0;
+
+
+}
+.Mifooter{
+	align-content: center;
+	border: white 5px solid;
+	padding: 10px;
+	height: 150px;
+	
+	
+
+}
+.textoCentrado{
+text-align: center;
+}
+.grid-container-3columnas{
+	display:grid;
+	grid-template-columns: 33% 33% 33%;
+	gap: 50px;
+    padding: 55px;
+    border-color:#FF6100;
+}
+.grid-container-3columnas > article{
+	background-color: transparent;
+	text-align: center;
+	padding: 30px 20px;
+	font-size: 20px;
+	height: 400px;
+  width: 300px;
+  border: white 5px solid;
+
+}
+.grid-container-dos{
+	display:grid;
+	border: white 5px solid;
+    grid-template-columns: 50% 25%;
+    gap: 5%;
+    padding: 4%;
+    justify-content: center;
+}
+.grid-container-dos > article{
+background-color: #A83924 rgba(255, 255, 255, 0.8);
+text-align:center ;
+padding: % 20%;
+font-size: 200%;
+
+}   
+.grid-container-centrado{
+	display:grid;
+	grid-template-columns: auto;
+	gap: 10px;
+	background-color: #F44923;
+    padding: 20px;
+    justify-content: center ;
+}
+.texto-centrado{
+	font-size: 22px;
+	text-align: center;
+
+}
+.texto-izquierda{
+	color: white;
+	font-size: 20px;
+	text-align: left;
+
+}
+.imagenRedonda{
+border-radius: 80%;
+background-image: url(./img/quiensoy.jpg);
+
+}
+table,td,th{
+	text-align: center;
+	border: 5px solid white;
+	color: white;
+
+}
+table{
+	border-collapse: collapse;
+	border-color: #F44923;
+	width: 100%;
+}
+td{
+	text-align: center;
+}
+h3{
+	color: white;
+}
+h1{
+	color: white;
+
+}
+.parrafo{
+	color: white;
+}
+.titulo-1{
+	color:white;
+}
+
+.texto{
+	color: white;
+	text-align: center;
+}
+
+
+

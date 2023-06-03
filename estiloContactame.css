@@ -1,0 +1,116 @@
+*{box-sizing: border-box;
+font-family: 'Monomaniac One', sans-serif;
+}
+body{
+  margin: auto auto;
+ 
+}
+.Boton{
+  padding: 15px 20px;
+  cursor: pointer;
+  outline: none;
+  color:black;
+  background-color: #FF6100;
+  border-radius: 15px;
+  transition: font-size 0.3s ease
+}
+.Boton:hover{
+font-size: 20px;
+}
+
+.Boton:artive{
+	background-color: black;
+	transform: translateY(10px);
+}
+.h1{
+  color: white;
+}
+.header {
+  display: flex;
+  width: 140%;
+  padding-top: 43px;
+  padding-right: 46%;
+  padding-left: 40px;
+  padding-bottom: 69px;
+  text-align: center;
+  justify-content: flex-end;
+    
+}
+.contenedor{
+  border: white;
+  height: 240px;
+  width:840px;
+  margin: 0px auto;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 170px;
+    width: 300px;
+    border: white 5px solid;
+  float: left;
+ 
+}
+.caja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 170px;
+    width: 300px;
+    border: white 5px solid;
+    float: right;
+}
+.cajalogo{
+  background-color: #FF6100;
+  border-radius: 15px;
+  width: 66px;
+  height: 44px;
+  float: right;
+
+}
+.cajalogo2{
+  height:85px ;
+  width: 157px;
+  border: transparent;
+  text-align: center;
+  margin-left:540px;
+}
+
+.h1White{
+color: white;
+text-align: center;
+width: 57px;
+height: 40px;
+float: right;
+}
+.h1Black{
+  color: black;
+  text-align: center;
+  margin-inline-end: 390px;
+}
+
+
+.h1{
+  color: white;
+  text-align: center;
+  margin-inline-end: 390px;
+}
+
+.texto{
+  color: white;
+  text-align: center;
+     
+
+}
+.Mifooter{
+    align-content: center;
+  border: white 5px solid;
+  padding: 10px;
+  height: 150px;
+    }
+
+
+
